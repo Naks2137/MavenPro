@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <parameter name="browser" value="G:\\Software\\Selenium\\chromedriver_74\\chromedriver_win32\\chromedriver.exe"/>
+  <parameter name="url" value="http://www.newtours.demoaut.com/mercurywelcome.php"/>
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <parameter name="timeoutseconds" value="15"/>
+    <parameter name="usernm" value="Suvidyap1"/>
+    <parameter name="passwd" value="P@ssword1"/>
+    <classes>
+      <class name="com.Modules_TestNG.LoginDemo">
+        <methods>
+          <include name="executeLogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.Modules_TestNG.LoginDemo -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

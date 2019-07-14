@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20189" started-at="2019-06-30T12:32:56Z" finished-at="2019-06-30T12:33:16Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="20189" started-at="2019-06-30T12:32:56Z" finished-at="2019-06-30T12:33:16Z">
+      <class name="com.Modules_TestNG.Launch">
+        <test-method status="PASS" signature="executeLaunch(java.lang.String, java.lang.String, int)[pri:0, instance:com.Modules_TestNG.Launch@6767c1fc]" name="executeLaunch" duration-ms="10095" started-at="2019-06-30T12:32:56Z" finished-at="2019-06-30T12:33:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[G:\\Software\\Selenium\\chromedriver_74\\chromedriver_win32\\chromedriver.exe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.newtours.demoaut.com/mercurywelcome.php]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeLaunch -->
+      </class> <!-- com.Modules_TestNG.Launch -->
+      <class name="com.Modules_TestNG.LoginDemo">
+        <test-method status="PASS" signature="executeLogin(java.lang.String, java.lang.String)[pri:0, instance:com.Modules_TestNG.LoginDemo@29ee9faa]" name="executeLogin" duration-ms="10034" started-at="2019-06-30T12:33:06Z" finished-at="2019-06-30T12:33:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Suvidyap1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P@ssword1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeLogin -->
+      </class> <!-- com.Modules_TestNG.LoginDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
